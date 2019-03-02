@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App5"
+             x:Class="App5.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+        
+            <Label Text="This is First Page" x:Name="Label1"/>
+            
+            <Button x:Name="clock" Text="Clock" Clicked="Gotto_Clock"/>
+            <Button x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
+            <Button x:Name="PopPage" Text="Page 2" Clicked="Pop_page"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
