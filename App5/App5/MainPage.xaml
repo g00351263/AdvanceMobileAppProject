@@ -2,16 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App5"
-             x:Class="App5.MainPage">
-
+             x:Class="App5.MainPage"
+    BackgroundImage="Assets/shoryuken.gif">
     <ContentPage.Content>
         <StackLayout>
-        
-            <Label Text="This is First Page" x:Name="Label1"/>
-            
-            <Button x:Name="clock" Text="Clock" Clicked="Gotto_Clock"/>
-            <Button x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
-            <Button x:Name="PopPage" Text="Page 2" Clicked="Pop_page"/>
+
+            <StackLayout>
+                <Label FontSize="Large" TextDecorations="Underline" HorizontalTextAlignment="Center" BackgroundColor="Transparent"  Text="Welcome To The Multi App" x:Name="Label1"/>
+
+
+
+                <Button BackgroundColor="Red" x:Name="clock" Text="Clock" Clicked="Gotto_Clock"/>
+            <Button BackgroundColor="Green" x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
+                <Button BackgroundColor="Blue" x:Name="animation" Text="Animation Page" Clicked="Animation_Clicked"/>
+                <Button BackgroundColor="Gold" x:Name="PopPage" Text="Pop Current Page" Clicked="Pop_page"/>
+
+        </StackLayout>
+
 
         </StackLayout>
     </ContentPage.Content>

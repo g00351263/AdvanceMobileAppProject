@@ -33,9 +33,14 @@ namespace App5
         {
             string requestUri = endpoint;
             requestUri += $"?q={_cityEntry.Text}";
-            requestUri += "&units=imperial"; // or units=metric
+            requestUri += "&units=metric"; // or units=metric
             requestUri += $"&APPID={Constants.OpenWeatherMapAPIKey}";
             return requestUri;
+        }
+
+        private void BackToMainPage_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
         }
     }
 }

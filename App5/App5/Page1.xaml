@@ -4,7 +4,7 @@
              x:Class="App5.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Page 2" x:Name="clockLabel"
+            <Label FontSize="Large" FontFamily="Arial" Text="Page 2" x:Name="clockLabel"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Button x:Name="BackToMainPage" Text="Back to MainPage" Clicked="BackToMainPage_Clicked"/>

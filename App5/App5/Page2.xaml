@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App5"
-             x:Class="App5.Page2">
-
+             x:Class="App5.Page2"
+    BackgroundImage="Assets/weather.gif">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -12,7 +12,7 @@
                 <Setter Property="FontSize" 
                         Value="Small" />
                 <Setter Property="TextColor" 
-                        Value="Gray" />
+                        Value="Red" />
             </Style>
 
             <Style x:Key="labelResultStyle" 
@@ -21,6 +21,8 @@
                         Value="Medium" />
                 <Setter Property="Margin" 
                         Value="10,0,0,0" />
+                <Setter Property="TextColor" 
+                        Value="Blue" />
             </Style>
 
             <local:LongToDateTimeConverter x:Key="longToDateTimeConverter" />
@@ -61,7 +63,7 @@
                    VerticalOptions="Center"
                    BackgroundColor="DarkGray"
                    TextColor="White"
-                   Text="Seattle" />
+                   Text="Galway" />
 
             <Button Grid.Row="1" 
                     Grid.Column="2"
@@ -109,7 +111,14 @@
                        Style="{StaticResource labelStyle}" />
                 <Label Text="{Binding Sys.Sunset, Converter={StaticResource longToDateTimeConverter}}" 
                        Style="{StaticResource labelResultStyle}" />
+
+                
+                <Label Text="{Binding Weather[0].Icon}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Image Source="{Binding Weather[0].Icon}" HorizontalOptions="EndAndExpand" />
             </StackLayout>
         </ScrollView>
+        <Button x:Name="BackToMainPage" Text="Back to MainPage" Clicked="BackToMainPage_Clicked" BackgroundColor="Gold"/>
     </StackLayout>
 </ContentPage>

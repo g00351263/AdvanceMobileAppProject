@@ -39,5 +39,10 @@ namespace App5
         {
             Navigation.PopAsync(); // will pop current page
         }
+
+        private void Animation_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page3());
+        }
     }
 }

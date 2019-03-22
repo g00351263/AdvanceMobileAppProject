@@ -562,6 +562,12 @@
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll">
       <PackagePath>App5.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\download.jpg">
+      <PackagePath>Assets\download.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\raja.jpg">
+      <PackagePath>Assets\raja.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -573,6 +579,9 @@
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\pro.png">
+      <PackagePath>Assets\pro.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
@@ -669,6 +678,12 @@
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\shoryuken.gif">
+      <PackagePath>Assets\shoryuken.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\weather.gif">
+      <PackagePath>Assets\weather.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

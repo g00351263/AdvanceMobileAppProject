@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-02-28T18:33:33.788</Modified>
+      <Modified>2019-03-22T04:40:21.160</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\App5.UWP.exe">
       <PackagePath>entrypoint\App5.UWP.exe</PackagePath>
-      <Modified>2019-02-28T18:33:32.846</Modified>
+      <Modified>2019-03-22T04:40:20.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
@@ -748,7 +748,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll">
       <PackagePath>App5.dll</PackagePath>
-      <Modified>2019-02-28T18:33:22.980</Modified>
+      <Modified>2019-03-22T04:39:56.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\download.jpg">
+      <PackagePath>Assets\download.jpg</PackagePath>
+      <Modified>2019-03-21T21:40:40.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\raja.jpg">
+      <PackagePath>Assets\raja.jpg</PackagePath>
+      <Modified>2019-03-21T21:37:05.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -764,6 +772,10 @@
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-27T01:14:25.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\pro.png">
+      <PackagePath>Assets\pro.png</PackagePath>
+      <Modified>2019-03-21T21:41:26.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
@@ -885,6 +897,14 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-27T01:14:25.384</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\shoryuken.gif">
+      <PackagePath>Assets\shoryuken.gif</PackagePath>
+      <Modified>2019-03-21T22:30:32.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\weather.gif">
+      <PackagePath>Assets\weather.gif</PackagePath>
+      <Modified>2019-03-22T01:34:29.889</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-02-27T01:14:25.391</Modified>
@@ -895,11 +915,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-02-28T18:33:32.475</Modified>
+      <Modified>2019-03-22T04:40:19.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-02-28T18:33:32.475</Modified>
+      <Modified>2019-03-22T04:40:19.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -911,11 +931,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-02-28T05:33:10.019</Modified>
+      <Modified>2019-03-22T01:34:56.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\Core\App5.UWP.exe">
       <PackagePath>App5.UWP.exe</PackagePath>
-      <Modified>2019-02-28T18:33:33.782</Modified>
+      <Modified>2019-03-22T04:40:21.153</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
