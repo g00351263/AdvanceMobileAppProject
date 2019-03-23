@@ -7,8 +7,6 @@
 
         <StackLayout>
             <Image x:Name="image" Source="Assets/raja.jpg" Opacity="0" VerticalOptions="CenterAndExpand" />
-            <Button x:Name="startButton" Text="Start Animation" Clicked="OnStartAnimationButtonClicked" VerticalOptions="End" />
-            <Button x:Name="cancelButton" Text="Cancel Animation" Clicked="OnCancelAnimationButtonClicked" IsEnabled="false" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

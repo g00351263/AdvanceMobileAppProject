@@ -16,27 +16,14 @@ namespace App5
 		{
 			InitializeComponent ();
 		}
-        void SetIsEnabledButtonState(bool startButtonState, bool cancelButtonState)
-        {
-            startButton.IsEnabled = startButtonState;
-            cancelButton.IsEnabled = cancelButtonState;
-        }
 
-        async void OnStartAnimationButtonClicked(object sender, EventArgs e)
+        async protected override void OnAppearing()
         {
-            SetIsEnabledButtonState(false, true);
-
-            image.Opacity =0.3;
+            base.OnAppearing();
+            //your code here;
+            image.Opacity = 0.3;
             await image.FadeTo(1, 4000);
 
-            SetIsEnabledButtonState(true, false);
         }
-
-        void OnCancelAnimationButtonClicked(object sender, EventArgs e)
-        {
-            ViewExtensions.CancelAnimations(image);
-            SetIsEnabledButtonState(true, false);
-        }
-
     }
 }

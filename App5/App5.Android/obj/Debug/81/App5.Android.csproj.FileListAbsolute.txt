@@ -32,6 +32,9 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\mipmap-xxhdp
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\drawable\pro.png
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\drawable\raja.png
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\drawable\shoryuken.png
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\drawable\weather.png
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\R.cs.flag
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\R.txt
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\uploadflags.txt
@@ -112,5 +115,7 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\S
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\App5.dll.mdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\linksrc\App5.dll.mdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb

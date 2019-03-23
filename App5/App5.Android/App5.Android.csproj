@@ -102,5 +102,13 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\pro.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\drawable\download.jpg" />
+    <Content Include="Resources\drawable\raja.jpg" />
+    <AndroidResource Include="Resources\drawable\raja.png" />
+    <Content Include="Resources\drawable\shoryuken.gif" />
+    <AndroidResource Include="Resources\drawable\shoryuken.png" />
+    <AndroidResource Include="Resources\drawable\weather.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

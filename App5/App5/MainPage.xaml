@@ -3,22 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App5"
              x:Class="App5.MainPage"
-    BackgroundImage="Assets/shoryuken.gif">
+            BackgroundImage="Assets/shoryuken.gif">
+    
     <ContentPage.Content>
         <StackLayout>
-
-            <StackLayout>
-                <Label FontSize="Large" TextDecorations="Underline" HorizontalTextAlignment="Center" BackgroundColor="Transparent"  Text="Welcome To The Multi App" x:Name="Label1"/>
-
-
-
-                <Button BackgroundColor="Red" x:Name="clock" Text="Clock" Clicked="Gotto_Clock"/>
-            <Button BackgroundColor="Green" x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
-                <Button BackgroundColor="Blue" x:Name="animation" Text="Animation Page" Clicked="Animation_Clicked"/>
-                <Button BackgroundColor="Gold" x:Name="PopPage" Text="Pop Current Page" Clicked="Pop_page"/>
-
-        </StackLayout>
-
+            <Label FontSize="Large" TextDecorations="Underline" HorizontalTextAlignment="Center" BackgroundColor="Transparent"  Text="Welcome To The Multi App" x:Name="Label1"/>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Button BackgroundColor="Red" BorderRadius="30" x:Name="clock" Text="Clock" Clicked="Gotto_Clock"/>
+                <Button BackgroundColor="Green" BorderRadius="30" x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
+                <Button BackgroundColor="Blue" BorderRadius="30" x:Name="animation" Text="Animation Page" Clicked="Animation_Clicked"/>
+                <Button BackgroundColor="Gold" BorderRadius="30" x:Name="PopPage" Text="Pop Current Page" Clicked="Pop_page"/>
+            </StackLayout>
 
         </StackLayout>
     </ContentPage.Content>

@@ -67,3 +67,4 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\obj\iPhoneSimulator\Debug\XamlC.s
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\obj\iPhoneSimulator\Debug\App5.iOS.csproj.CopyComplete
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\obj\iPhoneSimulator\Debug\App5.iOS.exe
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\obj\iPhoneSimulator\Debug\App5.iOS.pdb
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\App5.dll.mdb
