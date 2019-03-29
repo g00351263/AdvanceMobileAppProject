@@ -25,7 +25,14 @@ namespace App5
             //view.Text = json.ToString();
 
             GetNews machine = JsonConvert.DeserializeObject<GetNews>(json);
-            view.Text = machine.articles[2].Title.ToString();
+            //view.Text = machine.articles[2].Title.ToString();
+
+            foreach (var data in machine.articles)
+            {
+               view.Text = data.Title;
+            }
+
+        
         }
         }
 }
