@@ -1,5 +1,4 @@
-﻿using App5.Models;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Plugin.Connectivity;
 using System;
 using System.Collections.Generic;

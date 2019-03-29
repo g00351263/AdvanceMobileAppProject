@@ -1,5 +1,4 @@
-﻿using App5.Models;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Plugin.Connectivity;
 using System;
 using System.Collections.Generic;
@@ -43,6 +42,11 @@ namespace App5
         private void Animation_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Page3());
+        }
+
+        private void WeatherPage_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page4());
         }
     }
 }
