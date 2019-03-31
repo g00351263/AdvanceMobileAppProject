@@ -13,4 +13,3 @@ C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.js
 C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.csprojAssemblyReference.cache

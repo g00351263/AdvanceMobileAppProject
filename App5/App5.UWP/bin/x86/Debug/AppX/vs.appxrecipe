@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-03-29T05:10:52.235</Modified>
+      <Modified>2019-03-31T12:16:11.561</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\App5.UWP.exe">
       <PackagePath>entrypoint\App5.UWP.exe</PackagePath>
-      <Modified>2019-03-29T05:10:51.343</Modified>
+      <Modified>2019-03-31T12:16:10.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
@@ -748,7 +748,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll">
       <PackagePath>App5.dll</PackagePath>
-      <Modified>2019-03-29T05:10:45.709</Modified>
+      <Modified>2019-03-31T12:16:05.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\download.jpg">
       <PackagePath>Assets\download.jpg</PackagePath>
@@ -915,11 +915,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-03-29T05:10:51.132</Modified>
+      <Modified>2019-03-31T12:16:10.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-03-29T05:10:51.133</Modified>
+      <Modified>2019-03-31T12:16:10.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -931,11 +931,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-03-29T02:06:15.893</Modified>
+      <Modified>2019-03-31T02:13:28.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\Core\App5.UWP.exe">
       <PackagePath>App5.UWP.exe</PackagePath>
-      <Modified>2019-03-29T05:10:52.229</Modified>
+      <Modified>2019-03-31T12:16:11.555</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

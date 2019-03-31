@@ -3,6 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App5.Page4">
     <ContentPage.Content>
-        <Label x:Name="view" Text="{Binding Title}}"/>
+        <StackLayout>
+            <Label x:Name="viewing" Text="{Binding Title}"/>
+            <ListView x:Name="listviewConacts" Grid.Row="1" HorizontalOptions="FillAndExpand" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid HorizontalOptions="FillAndExpand" Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="{Binding author}" HorizontalOptions="StartAndExpand" Grid.Row="0" TextColor="Blue"  FontAttributes="Bold"/>
+                                <Label Text="{Binding description}" HorizontalOptions="StartAndExpand" Grid.Row="1" TextColor="Orange"  FontAttributes="Bold"/>
+                                <Label Text="{Binding url}" HorizontalOptions="StartAndExpand" Grid.Row="2" TextColor="Gray"  FontAttributes="Bold"/>
+
+                                <BoxView HeightRequest="2" Margin="0,10,10,0" BackgroundColor="Gray" Grid.Row="3" HorizontalOptions="FillAndExpand" />
+                            </Grid>
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

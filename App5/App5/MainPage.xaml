@@ -11,7 +11,7 @@
             <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                 <Button BackgroundColor="Red" BorderRadius="30" x:Name="clock" Text="Clock" Clicked="Gotto_Clock"/>
                 <Button BackgroundColor="Green" BorderRadius="30" x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
-                <Button BackgroundColor="Blue" BorderRadius="30" x:Name="animation" Text="Animation Page" Clicked="Animation_Clicked"/>
+                <Button BackgroundColor="Blue" BorderRadius="30" x:Name="animation" Text="Contact Book" Clicked="Animation_Clicked"/>
                 <Button BackgroundColor="Gold" BorderRadius="30" x:Name="weatherPage" Text="News Page" Clicked="WeatherPage_Clicked"/>
                 <Button BackgroundColor="Gold" BorderRadius="30" x:Name="PopPage" Text="Pop Current Page" Clicked="Pop_page"/>
             </StackLayout>

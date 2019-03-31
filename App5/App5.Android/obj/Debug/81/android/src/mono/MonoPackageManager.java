@@ -106,7 +106,6 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "App5.Android.dll" comes first in this list. */
-		"App5.Android.dll",
 		"App5.dll",
 		"FormsViewGroup.dll",
 		"NewsAPI.dll",

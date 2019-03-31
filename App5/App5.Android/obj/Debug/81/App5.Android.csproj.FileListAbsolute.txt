@@ -116,6 +116,3 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\X
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\App5.dll.mdb
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\linksrc\App5.dll.mdb
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
