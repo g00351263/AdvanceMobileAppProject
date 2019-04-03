@@ -25,6 +25,7 @@ namespace App5
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 clockLabel.Text = DateTime.Now.ToString("h:mm:ss tt");
+                dateLabel.Text = DateTime.Now.ToString("D");
                 return true;
             });
 

@@ -1,4 +1,6 @@
-C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.csprojAssemblyReference.cache
+C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
+C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\Page2.xaml.g.cs
@@ -7,9 +9,6 @@ C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\Page4.xaml.g
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.csproj.CoreCompileInputs.cache
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfoInputs.cache
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfo.cs
+C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
-C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
-C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
-C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
-C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
