@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "fb331d62b392388100b3df10c97ed2fba859ee3d"
+    "signature": "27efe9be8907579849b9aeaa290d4a31e4027ee2"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,11 +13,10 @@
           "NETStandard.Library": "2.0.3",
           "NewsAPI": "0.5.0",
           "Newtonsoft.Json": "12.0.1",
-          "SQLite": "3.13.0",
-          "SQLite.Net.Async-PCL": "3.1.1",
-          "SQLite.Net.Core-PCL": "3.1.1",
           "Xam.Plugin.Connectivity": "4.0.0.190-beta",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xam.Plugin.Media": "4.2.0-beta",
+          "Xamarin.Forms": "3.4.0.1008975",
+          "sqlite-net-pcl": "1.6.258-beta"
         },
         "runtime": {
           "App5.dll": {}
@@ -70,23 +69,50 @@
           }
         }
       },
-      "SQLite/3.13.0": {},
-      "SQLite.Net.Async-PCL/3.1.1": {
-        "dependencies": {
-          "SQLite.Net.Core-PCL": "3.1.1"
-        },
+      "Plugin.Permissions/4.0.4-beta": {
         "runtime": {
-          "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.Async.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
+          "lib/netstandard2.0/Plugin.Permissions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SQLite.Net.Core-PCL/3.1.1": {
+      "sqlite-net-pcl/1.6.258-beta": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
         "runtime": {
-          "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
+          "lib/netstandard1.1/SQLite-net.dll": {
+            "assemblyVersion": "1.6.258.0",
+            "fileVersion": "1.6.258.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.13.388",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.13.388",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.13.388",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -102,6 +128,17 @@
           "lib/netstandard1.0/Plugin.Connectivity.dll": {
             "assemblyVersion": "4.0.0.190",
             "fileVersion": "4.0.0.190"
+          }
+        }
+      },
+      "Xam.Plugin.Media/4.2.0-beta": {
+        "dependencies": {
+          "Plugin.Permissions": "4.0.4-beta"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Media.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -178,26 +215,33 @@
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
-    "SQLite/3.13.0": {
+    "Plugin.Permissions/4.0.4-beta": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
-      "path": "sqlite/3.13.0",
-      "hashPath": "sqlite.3.13.0.nupkg.sha512"
+      "sha512": "sha512-yrBxbRNhR0Dav1C52YrJvSz6TCNbBvAIf6EnSdAgTySUg8hbK2qLKj/vmT6MppzhJGWvvi9+ivHU1yiOgSP/Ew==",
+      "path": "plugin.permissions/4.0.4-beta",
+      "hashPath": "plugin.permissions.4.0.4-beta.nupkg.sha512"
     },
-    "SQLite.Net.Async-PCL/3.1.1": {
+    "sqlite-net-pcl/1.6.258-beta": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TQ7C4sPPAIz/3m0bcpCEbEtDnxqpVFmVqtO9jix1pokFlc7y7oYn1Qni865hKtmkjrnI/sO3sIoHPWSNSYymww==",
-      "path": "sqlite.net.async-pcl/3.1.1",
-      "hashPath": "sqlite.net.async-pcl.3.1.1.nupkg.sha512"
+      "sha512": "sha512-DAzCPWltdnkLft5JbMbQTB/BtZ8NiUnWvF51OKrvWTt7pip9LZCzbTL065vsQkQU+KpEr7PJtQuK2uYuUarbAw==",
+      "path": "sqlite-net-pcl/1.6.258-beta",
+      "hashPath": "sqlite-net-pcl.1.6.258-beta.nupkg.sha512"
     },
-    "SQLite.Net.Core-PCL/3.1.1": {
+    "SQLitePCLRaw.bundle_green/1.1.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oNeX60ZqLqly+lxGAxvOCoGte7Fc2OabE5rOTs0clMMcrip+SMpWlvWb7cn/LxRepwQZAotSNWxxqzztasRsyQ==",
-      "path": "sqlite.net.core-pcl/3.1.1",
-      "hashPath": "sqlite.net.core-pcl.3.1.1.nupkg.sha512"
+      "sha512": "sha512-E0Hm/XTfleE/LlrRZVucB1dQqDlIDPgqvkFymbGqMO7bSaoB6R2X5Cgzq/RDxBFSzHjpzet2Tp5Kar8faLSZ+Q==",
+      "path": "sqlitepclraw.bundle_green/1.1.13",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.13.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I8Q9qL1urPegoyZ5uI32lgqsxl8aPRZAyVBJbO+0T/zlGz/LBc8vhRVyDyCOU9LWWpV8dYpT0nCpuLv1ua6zkA==",
+      "path": "sqlitepclraw.core/1.1.13",
+      "hashPath": "sqlitepclraw.core.1.1.13.nupkg.sha512"
     },
     "Xam.Plugin.Connectivity/4.0.0.190-beta": {
       "type": "package",
@@ -205,6 +249,13 @@
       "sha512": "sha512-tDxs/D2VH+6edGlGZunu34GAcuYE6SM0j5DetAqBiaqQHMnoPYq4wH+H9xZVioRLEA1uo1JpPzXcJn+Ld1l/CQ==",
       "path": "xam.plugin.connectivity/4.0.0.190-beta",
       "hashPath": "xam.plugin.connectivity.4.0.0.190-beta.nupkg.sha512"
+    },
+    "Xam.Plugin.Media/4.2.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tYWdC9zUZ2SrqjD3SAZ2dTAKNE+f4GA6t1KN7HKSWHPPncRvhFcqVd1vwljdRhsnEHaaqVSDMfAEKAC3xso0dg==",
+      "path": "xam.plugin.media/4.2.0-beta",
+      "hashPath": "xam.plugin.media.4.2.0-beta.nupkg.sha512"
     },
     "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",

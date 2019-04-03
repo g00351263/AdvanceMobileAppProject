@@ -9,7 +9,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using static App5.Model.Article;
@@ -19,7 +19,6 @@ namespace App5
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Page4 : ContentPage
 	{
-        
         public Page4 ()
 		{
             
@@ -40,6 +39,5 @@ namespace App5
             }
             listviewConacts.ItemsSource = ObjContactList.Articles;
         }
-
     }
 }

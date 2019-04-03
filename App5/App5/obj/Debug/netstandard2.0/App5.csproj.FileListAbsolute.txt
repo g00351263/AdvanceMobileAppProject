@@ -1,6 +1,6 @@
+C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.csprojAssemblyReference.cache
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\Page1.xaml.g.cs
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\Page2.xaml.g.cs
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\Page3.xaml.g.cs
 C:\Users\g0035\Source\Repos\App5\App5\App5\obj\Debug\netstandard2.0\Page4.xaml.g.cs

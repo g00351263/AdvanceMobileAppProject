@@ -13,7 +13,6 @@ namespace App5
 	public partial class Page2 : ContentPage
 	{
         RestService _restService;
-
         public Page2()
         {
             InitializeComponent();
@@ -41,6 +40,14 @@ namespace App5
         private void BackToMainPage_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MainPage());
+        }
+
+        private string completeImage1;
+
+        public string SetcompleteImage(string value)
+        {
+            completeImage1 = "http://openweathermap.org/img/w/" + value + ".png";
+            return completeImage1;
         }
     }
 }

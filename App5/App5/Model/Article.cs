@@ -27,9 +27,9 @@ namespace App5.Model
     {
 
         public List<Article> Articles { get; set; }
-    }
+         }
 
 
-}
+        }
     } 
 

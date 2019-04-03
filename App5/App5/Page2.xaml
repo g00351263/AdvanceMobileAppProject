@@ -112,11 +112,11 @@
                 <Label Text="{Binding Sys.Sunset, Converter={StaticResource longToDateTimeConverter}}" 
                        Style="{StaticResource labelResultStyle}" />
 
-                
-                <Label Text="{Binding Weather[0].Icon}" 
+
+                <Label Text="{Binding Weather[0].Icon, StringFormat='http://openweathermap.org/img/w/{0}'}" 
                        Style="{StaticResource labelResultStyle}" />
 
-                <Image Source="{Binding Weather[0].Icon}" HorizontalOptions="EndAndExpand" />
+                <Image x:Name="ionic" Source="SetcompleteImage('{Binding Weather[0].Icon }')" HorizontalOptions="EndAndExpand" />
             </StackLayout>
         </ScrollView>
         <Button x:Name="BackToMainPage" Text="Back to MainPage" Clicked="BackToMainPage_Clicked" BackgroundColor="Gold"/>

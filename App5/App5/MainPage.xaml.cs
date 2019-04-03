@@ -22,12 +22,23 @@ namespace App5
         {
             InitializeComponent();
 
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+            {
+                clockLabel.Text = DateTime.Now.ToString("h:mm:ss tt");
+                return true;
+            });
+
+            CameraButton.Clicked += CameraButton_Clicked;
         }
 
-        private void Gotto_Clock(object sender, EventArgs e)
+        private async void CameraButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page1());
+            var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() { });
+
+            if (photo != null)
+                PhotoImage.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
         }
+
 
         private void Gotto_Weather(object sender, EventArgs e)
         {
