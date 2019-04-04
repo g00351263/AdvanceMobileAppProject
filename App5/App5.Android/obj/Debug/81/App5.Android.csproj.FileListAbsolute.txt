@@ -1,9 +1,11 @@
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\App5.Android.nuget.stamp
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\App5.Android.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\App5.Android.pdb
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\com.plugin.mediatest.apk
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\com.plugin.mediatest-Signed.apk
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\App5.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\App5.pdb
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\App5.Android.nuget.stamp
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\App5.Android.csprojAssemblyReference.cache
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\libraryimports.cache.stamp
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res.flag
@@ -12,6 +14,7 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\XamlC.stamp
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\App5.Android.csproj.CopyComplete
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\App5.Android.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\App5.Android.pdb
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\bin\com.plugin.mediatest.apk
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\layout\tabbar.xml
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\layout\toolbar.xml
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\values\styles.xml
@@ -36,9 +39,6 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\xml\file_pat
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\R.cs.flag
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\R.txt
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\uploadflags.txt
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\com.plugin.mediatest.apk
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\com.plugin.mediatest-Signed.apk
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\bin\com.plugin.mediatest.apk
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\Mono.Android.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\mscorlib.pdb
