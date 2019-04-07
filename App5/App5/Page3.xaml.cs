@@ -73,11 +73,7 @@ namespace App5
 
             takeVideo.Clicked += async (sender, args) =>
             {
-                if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakeVideoSupported)
-                {
-                    DisplayAlert("No Camera", ":( No camera avaialble.", "OK");
-                    return;
-                }
+ 
 
                 var file = await CrossMedia.Current.TakeVideoAsync(new Plugin.Media.Abstractions.StoreVideoOptions
                 {

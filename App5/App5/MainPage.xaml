@@ -10,8 +10,8 @@
             <Label FontSize="Large" TextDecorations="Underline" HorizontalTextAlignment="Center" BackgroundColor="Transparent"  Text="Welcome To The Multi App" x:Name="Label1"/>
             <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                 <Button BackgroundColor="Green" BorderRadius="30" x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
-                <Button BackgroundColor="Blue" BorderRadius="30" x:Name="animation" Text="Camera" Clicked="Animation_Clicked"/>
                 <Button BackgroundColor="Gold" BorderRadius="30" x:Name="weatherPage" Text="News Page" Clicked="WeatherPage_Clicked"/>
+                <Button BackgroundColor="Blue" BorderRadius="30" x:Name="animation" Text="Camera" Clicked="Animation_Clicked"/>
                 <Button BackgroundColor="Red" BorderRadius="30" x:Name="PopPage" Text="Pop Current Page" Clicked="Pop_page"/>
             </StackLayout>
             <Label FontSize="Large" FontFamily="Arial" Text="Page 2" x:Name="clockLabel"
@@ -21,11 +21,6 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-
-
-
-                <Image x:Name="PhotoImage" />
-                <Button x:Name="CameraButton" Text="Take Photo"/>
 
         </StackLayout>
     </ContentPage.Content>

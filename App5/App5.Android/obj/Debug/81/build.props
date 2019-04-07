@@ -20,5 +20,5 @@ AndroidCreatePackagePerAbi=
 OS=Windows_NT
 DesignTimeBuild=
 AndroidIncludeDebugSymbols=True
-AdbTarget=-s PLEGAR17A2612957
+AdbTarget=-s emulator-5554
 AdbOptions=

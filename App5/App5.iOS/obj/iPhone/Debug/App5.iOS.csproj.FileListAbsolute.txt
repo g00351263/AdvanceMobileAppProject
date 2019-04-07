@@ -5,8 +5,6 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\System.Net.Http.
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\NewsAPI.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Newtonsoft.Json.pdb
-C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\SQLite.Net.Async.dll
-C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\SQLite.Net.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Plugin.Connectivity.Abstractions.dll
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Plugin.Connectivity.Abstractions.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Plugin.Connectivity.dll
@@ -67,3 +65,12 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\obj\iPhone\Debug\XamlC.stamp
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\obj\iPhone\Debug\App5.iOS.csproj.CopyComplete
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\obj\iPhone\Debug\App5.iOS.exe
 C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\obj\iPhone\Debug\App5.iOS.pdb
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Plugin.Permissions.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Plugin.Permissions.pdb
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Plugin.Media.dll
+C:\Users\g0035\Source\Repos\App5\App5\App5.iOS\bin\iPhone\Debug\Plugin.Media.pdb
