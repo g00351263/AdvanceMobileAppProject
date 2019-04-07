@@ -5,6 +5,7 @@
     <ContentPage.Content>
         
         <StackLayout>
+            <Button x:Name="BackToMainPage" Text="Back to MainPage" Clicked="BackToMainPage_Clicked"  BackgroundColor="Gold"/>
             <StackLayout BackgroundColor="LightYellow">
                 <Label Text="IRISH NEWS HEADLINES" HorizontalTextAlignment="Center" FontSize="Medium"/>
             </StackLayout>

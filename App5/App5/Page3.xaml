@@ -4,25 +4,17 @@
              x:Class="App5.Page3"
              BackgroundImage="Assets/pro.png">
     <ContentPage.Content>
-
+        <ScrollView>
         <StackLayout>
-            <Image x:Name="image1" Source="Assets/raja.jpg" Opacity="0" VerticalOptions="CenterAndExpand" />
-
-
-    
+            
+            <Image x:Name="image" HeightRequest="200" WidthRequest="200" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
             <Button x:Name="takePhoto" Text="Take Photo"/>
             <Button x:Name="pickPhoto" Text="Pick Photo"/>
             <Button x:Name="takeVideo" Text="Take Video"/>
             <Button x:Name="pickVideo" Text="Pick Video"/>
-
-            <Image x:Name="image"/>
-
-
+            <Button x:Name="BackToMainPage" Text="Back to MainPage" Clicked="BackToMainPage_Clicked"  BackgroundColor="Gold"/>
+                
         </StackLayout>
-
-
-
-
-
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

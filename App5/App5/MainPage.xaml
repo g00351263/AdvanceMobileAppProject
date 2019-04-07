@@ -4,24 +4,38 @@
              xmlns:local="clr-namespace:App5"
              x:Class="App5.MainPage"
             BackgroundImage="Assets/shoryuken.gif">
-    
+
+    <ContentPage.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="HeightRequest">
+                <Setter.Value>
+                    <OnPlatform x:TypeArguments="x:Double" iOS="30" Android="20"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
     <ContentPage.Content>
+
         <StackLayout>
-            <Label FontSize="Large" TextDecorations="Underline" HorizontalTextAlignment="Center" BackgroundColor="Transparent"  Text="Welcome To The Multi App" x:Name="Label1"/>
+            <Label TextDecorations="Underline" HorizontalTextAlignment="Center" BackgroundColor="Transparent"  Text="Welcome To The Multi App" x:Name="Label1">
+            </Label>
+            
             <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Button BackgroundColor="Green" BorderRadius="30" x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
-                <Button BackgroundColor="Gold" BorderRadius="30" x:Name="weatherPage" Text="News Page" Clicked="WeatherPage_Clicked"/>
-                <Button BackgroundColor="Blue" BorderRadius="30" x:Name="animation" Text="Camera" Clicked="Animation_Clicked"/>
-                <Button BackgroundColor="Red" BorderRadius="30" x:Name="PopPage" Text="Pop Current Page" Clicked="Pop_page"/>
+                <Button BackgroundColor="Green" BorderRadius="30" WidthRequest="300"  x:Name="weather" Text="Weather" Clicked="Gotto_Weather"/>
+
+                <Button BackgroundColor="Gold" BorderRadius="30" WidthRequest="300" x:Name="weatherPage" Text="News Page" Clicked="WeatherPage_Clicked"/>
+
+                <Button BackgroundColor="CadetBlue" BorderRadius="30" WidthRequest="300" x:Name="ContactPage" Text="Contact Book" Clicked="ContactPage_Clicked"/>
+
+                <Button BackgroundColor="IndianRed" BorderRadius="30" WidthRequest="300" x:Name="animation" Text="Camera" Clicked="Animation_Clicked"/>
             </StackLayout>
+            
             <Label FontSize="Large" FontFamily="Arial" Text="Page 2" x:Name="clockLabel"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Label FontSize="Large" FontFamily="Arial" Text="Page 2" x:Name="dateLabel"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

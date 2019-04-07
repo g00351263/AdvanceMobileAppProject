@@ -26,7 +26,7 @@ namespace App5
             GetJSON();
    
         }
-        public async void GetJSON()
+        public async void GetJSON() // getting the api connected and object of json converted
         {
             var client = new System.Net.Http.HttpClient();
             var response = await client.GetAsync("https://newsapi.org/v2/top-headlines?sources=the-irish-times&apiKey=2a75bd92c42a4a7a922d6bf591e75b0d");
@@ -38,6 +38,12 @@ namespace App5
                 ObjContactList = JsonConvert.DeserializeObject<ArticlesResult>(contactsJson);
             }
             listviewConacts.ItemsSource = ObjContactList.Articles;
+        }
+
+        private void BackToMainPage_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage()); // bringin to main page once clicked
+
         }
     }
 }

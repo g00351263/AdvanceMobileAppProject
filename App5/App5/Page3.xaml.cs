@@ -19,7 +19,7 @@ namespace App5
 		{
 			InitializeComponent ();
 
-            takePhoto.Clicked += async (sender, args) =>
+            takePhoto.Clicked += async (sender, args) => // when photo is clicked starting camera saves in following dirctory //
             {
 
                 var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
@@ -36,7 +36,7 @@ namespace App5
                 if (file == null)
                     return;
 
-                DisplayAlert("File Location", file.Path, "OK");
+                //DisplayAlert("File Location", file.Path, "OK");
 
                 image.Source = ImageSource.FromStream(() =>
                 {
@@ -50,7 +50,7 @@ namespace App5
             {
                 if (!CrossMedia.Current.IsPickPhotoSupported)
                 {
-                    DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
+                    //DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
                     return;
                 }
                 var file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
@@ -71,7 +71,7 @@ namespace App5
                 });
             };
 
-            takeVideo.Clicked += async (sender, args) =>
+            takeVideo.Clicked += async (sender, args) => // saving the video with following
             {
  
 
@@ -84,7 +84,7 @@ namespace App5
                 if (file == null)
                     return;
 
-                DisplayAlert("Video Recorded", "Location: " + file.Path, "OK");
+                //DisplayAlert("Video Recorded", "Location: " + file.Path, "OK");
 
                 file.Dispose();
             };
@@ -93,7 +93,7 @@ namespace App5
             {
                 if (!CrossMedia.Current.IsPickVideoSupported)
                 {
-                    DisplayAlert("Videos Not Supported", ":( Permission not granted to videos.", "OK");
+                   // DisplayAlert("Videos Not Supported", ":( Permission not granted to videos.", "OK");
                     return;
                 }
                 var file = await CrossMedia.Current.PickVideoAsync();
@@ -101,9 +101,14 @@ namespace App5
                 if (file == null)
                     return;
 
-                DisplayAlert("Video Selected", "Location: " + file.Path, "OK");
+               // DisplayAlert("Video Selected", "Location: " + file.Path, "OK");
                 file.Dispose();
             };
+        }
+
+        private void BackToMainPage_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage()); // bringin to main page once clicked
         }
     }
 }

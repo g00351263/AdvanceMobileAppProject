@@ -21,7 +21,7 @@ namespace App5
 
         {
             InitializeComponent();
-
+    
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 clockLabel.Text = DateTime.Now.ToString("h:mm:ss tt");
@@ -38,11 +38,6 @@ namespace App5
             Navigation.PushAsync(new Page2());
         }
 
-        private void Pop_page(object sender, EventArgs e)
-        {
-            Navigation.PopAsync(); // will pop current page
-        }
-
         private void Animation_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Page3());
@@ -51,6 +46,11 @@ namespace App5
         private void WeatherPage_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Page4());
+        }
+
+        private void ContactPage_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TodoListPage());
         }
     }
 }
