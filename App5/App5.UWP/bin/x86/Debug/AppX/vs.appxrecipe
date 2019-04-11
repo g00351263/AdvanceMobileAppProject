@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
-    <PackageIdentityPublisher>CN=758c24dd-d65d-4584-866d-1551c7354531</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Raja</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
@@ -19,36 +19,24 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>89458B9594ACA1381ADC754AF1779105274E233E40D2AB800D668FBBB119FB52</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>a07e7993-9205-4693-aaa1-16ad6956deb6_1.0.0.0_x86__q8sz9kskqzw04</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>a07e7993-9205-4693-aaa1-16ad6956deb6_q8sz9kskqzw04!App</RegisteredUserModeAppID>
+    <RegisteredManifestChecksum>F058F94E1B61741E22FB44A39DFF6E4524FA684C979C9AB9115469938F24F4FA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a07e7993-9205-4693-aaa1-16ad6956deb6_1.0.0.0_x86__8sszm5p4dvzh0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a07e7993-9205-4693-aaa1-16ad6956deb6_8sszm5p4dvzh0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a07e7993-9205-4693-aaa1-16ad6956deb6</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=758c24dd-d65d-4584-866d-1551c7354531</RegisteredPackagePublisher>
+    <RegisteredPackagePublisher>CN=Raja</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-07T22:40:12.562</Modified>
+      <Modified>2019-04-09T14:31:54.901</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\App5.UWP.exe">
       <PackagePath>entrypoint\App5.UWP.exe</PackagePath>
-      <Modified>2019-04-07T22:40:08.647</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0035\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
-      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
-      <Modified>2015-02-19T20:10:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0035\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
-      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
-      <Modified>2015-02-19T20:10:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0035\.nuget\packages\newsapi\0.5.0\lib\portable45-net45+win8+wpa81\NewsAPI.dll">
-      <PackagePath>NewsAPI.dll</PackagePath>
-      <Modified>2018-01-28T23:36:50.000</Modified>
+      <Modified>2019-04-09T14:31:52.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -768,15 +756,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll">
       <PackagePath>App5.dll</PackagePath>
-      <Modified>2019-04-07T22:39:55.215</Modified>
+      <Modified>2019-04-09T14:31:41.858</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\download.jpg">
-      <PackagePath>Assets\download.jpg</PackagePath>
-      <Modified>2019-03-23T04:13:44.025</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\raja.jpg">
-      <PackagePath>Assets\raja.jpg</PackagePath>
-      <Modified>2019-03-23T04:13:44.038</Modified>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\check.png">
+      <PackagePath>Assets\check.png</PackagePath>
+      <Modified>2019-04-09T14:25:42.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -792,6 +776,10 @@
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-27T01:14:25.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\plus.png">
+      <PackagePath>Assets\plus.png</PackagePath>
+      <Modified>2019-04-09T14:25:44.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\pro.png">
       <PackagePath>Assets\pro.png</PackagePath>
@@ -917,6 +905,14 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-02-27T01:14:25.384</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\download.jpg">
+      <PackagePath>Assets\download.jpg</PackagePath>
+      <Modified>2019-03-23T04:13:44.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\raja.jpg">
+      <PackagePath>Assets\raja.jpg</PackagePath>
+      <Modified>2019-03-23T04:13:44.038</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\shoryuken.gif">
       <PackagePath>Assets\shoryuken.gif</PackagePath>
       <Modified>2019-03-23T04:13:44.042</Modified>
@@ -935,11 +931,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-07T22:40:08.382</Modified>
+      <Modified>2019-04-09T14:31:51.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-07T22:40:08.383</Modified>
+      <Modified>2019-04-09T14:31:51.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -951,11 +947,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-07T22:40:11.481</Modified>
+      <Modified>2019-04-09T14:31:54.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\bin\x86\Debug\Core\App5.UWP.exe">
       <PackagePath>App5.UWP.exe</PackagePath>
-      <Modified>2019-04-07T22:40:12.554</Modified>
+      <Modified>2019-04-09T14:31:54.895</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

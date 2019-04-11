@@ -33,15 +33,24 @@
     <EmbeddedResource Update="Page4.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TodoItemPage.xaml">
+    <EmbeddedResource Update="ContactItemPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TodoListPage.xaml">
+    <EmbeddedResource Update="ContactListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ContactItemPage.xaml.cs">
+      <DependentUpon>ContactItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ContactListPage.xaml.cs">
+      <DependentUpon>ContactListPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

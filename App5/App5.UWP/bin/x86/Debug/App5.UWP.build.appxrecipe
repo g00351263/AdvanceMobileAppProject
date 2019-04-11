@@ -568,11 +568,8 @@
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll">
       <PackagePath>App5.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\download.jpg">
-      <PackagePath>Assets\download.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\raja.jpg">
-      <PackagePath>Assets\raja.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\check.png">
+      <PackagePath>Assets\check.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -585,6 +582,9 @@
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\plus.png">
+      <PackagePath>Assets\plus.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\pro.png">
       <PackagePath>Assets\pro.png</PackagePath>
@@ -684,6 +684,12 @@
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\download.jpg">
+      <PackagePath>Assets\download.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\raja.jpg">
+      <PackagePath>Assets\raja.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g0035\Source\Repos\App5\App5\App5.UWP\Assets\shoryuken.gif">
       <PackagePath>Assets\shoryuken.gif</PackagePath>

@@ -7,7 +7,10 @@
         <ScrollView>
         <StackLayout>
             
+            <!--Bottom is the box to show photo after taken-->
             <Image x:Name="image" HeightRequest="200" WidthRequest="200" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+            
+            
             <Button x:Name="takePhoto" Text="Take Photo"/>
             <Button x:Name="pickPhoto" Text="Pick Photo"/>
             <Button x:Name="takeVideo" Text="Take Video"/>

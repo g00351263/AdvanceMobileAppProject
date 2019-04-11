@@ -21,7 +21,9 @@ namespace App5
 
         {
             InitializeComponent();
-    
+
+
+            // Clock displayed on main page entry under the buttons //
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 clockLabel.Text = DateTime.Now.ToString("h:mm:ss tt");
@@ -33,24 +35,29 @@ namespace App5
         }
 
 
+        // button to go weather app//
         private void Gotto_Weather(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Page2());
         }
 
+        // button to go camera page
         private void Animation_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Page3());
         }
 
+        //button to go news page //
         private void WeatherPage_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Page4());
         }
 
+
+        // button to go contact book page //
         private void ContactPage_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new TodoListPage());
+            Navigation.PushAsync(new ContactListPage());
         }
     }
 }

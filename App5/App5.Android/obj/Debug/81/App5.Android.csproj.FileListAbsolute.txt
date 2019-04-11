@@ -39,6 +39,8 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\xml\file_pat
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\R.cs.flag
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\R.txt
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\uploadflags.txt
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\drawable\check.png
+C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\res\drawable\plus.png
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\Mono.Android.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\mscorlib.pdb
@@ -122,8 +124,6 @@ C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\S
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\g0035\Source\Repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
-C:\Users\g0035\Source\Repos\App5\App5\App5.Android\bin\Debug\App5.dll.mdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\linksrc\App5.dll.mdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
 C:\Users\g0035\Source\Repos\App5\App5\App5.Android\obj\Debug\81\linksrc\Plugin.Media.dll.mdb
