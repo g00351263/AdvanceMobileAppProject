@@ -2,23 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="App5.ContactItemPage" Title="{Binding Name}">
 
     <StackLayout>
-        <ScrollView>
+        <ScrollView>         
             <StackLayout Margin="20" VerticalOptions="StartAndExpand">
        
-        <Label Text="Name" />
-        <Entry Text="{Binding Name}" />
-        <Label Text="Notes" />
-        <Entry Text="{Binding Notes}" />
-        <Label Text="Address" />
-        <Entry Text="{Binding Address}" />
-        <Label Text="Phone" />
-        <Entry Text="{Binding Phone}" />
-        <Label Text="Done" />
-        <Switch IsToggled="{Binding Done}" />
-        <Button Text="Save" Clicked="OnSaveClicked" />
-        <Button Text="Delete" Clicked="OnDeleteClicked" />
-            <Button Text="Cancel" Clicked="OnCancelClicked" />
+                <!--Name Entry Box-->
+                <Label Text="Name" />
+                <Entry Text="{Binding Name}" />
+                       
+                <!--Notes Entry Box-->
+                <Label Text="Notes" />
+                <Entry Text="{Binding Notes}" />
+          
+                <!--Address Entry Box-->
+                <Label Text="Address" />
+                <Entry Text="{Binding Address}" />
+                
+                <!--Phone Entry Box-->
+                <Label Text="Phone" />
+                <Entry Text="{Binding Phone}" />
+
+                <Label Text="Done"/>
+                <Switch IsToggled="{Binding Done}" />
+      
+                <!--Buttons-->
+
+                <Button Text="Save" Clicked="OnSaveClicked" />
+                <Button Text="Delete" Clicked="OnDeleteClicked" />
+                <Button Text="Cancel" Clicked="OnCancelClicked" />
+    
+            </StackLayout>
+    
+        </ScrollView>
+        
     </StackLayout>
-    </ScrollView>
-        </StackLayout>
 </ContentPage>
