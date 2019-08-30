@@ -29,7 +29,7 @@ namespace App5
         public async void GetJSON() // getting the api connected and object of json converted
         {
             var client = new System.Net.Http.HttpClient();
-            var response = await client.GetAsync("https://newsapi.org/v2/top-headlines?sources=the-irish-times&apiKey=2a75bd92c42a4a7a922d6bf591e75b0d");
+            var response = await client.GetAsync("https://newsapi.org/v2/top-headlines?sources=the-irish-times&apiKey=");
             string contactsJson = await response.Content.ReadAsStringAsync();
             ArticlesResult ObjContactList = new ArticlesResult();
             if (contactsJson != "")
